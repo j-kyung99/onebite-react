@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "./components/header";
+import Main from "./components/main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <h1>안녕 리액트!</h1>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
